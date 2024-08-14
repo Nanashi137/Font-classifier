@@ -1,6 +1,6 @@
 Create conda enviroment: <br />
 Conda create -p <path_to_env> python=3.9 <br />
-Conda activate -p <path_to_env> <br />
+Conda activate <path_to_env> <br />
 pip install -r requirements.txt <br />
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 (install torch seperately)
 

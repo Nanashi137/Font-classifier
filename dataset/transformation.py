@@ -40,7 +40,7 @@ def inference_input(img):
         n_grids = int(np.round(log_ratio)) 
         grid_dim = h #square grid
 
-        # Padding to make the width of image the smallest square number (with offset) that's larger then multiple of height and total grid
+        # Padding to make the width of image the smallest square number (with offset) that's larger than multiple of height and total grid
         padding_offset = 10
         if (grid_dim*n_grids*n_grids > w):
             img = right_padding(img, size= grid_dim*n_grids*n_grids - w + padding_offset)

@@ -12,9 +12,6 @@ augmenter = T.Compose([
     to_tensor
 ])
 
-custom1 = T.Compose([
-
-])
 
 def right_padding(img, size):
     top    = 0
